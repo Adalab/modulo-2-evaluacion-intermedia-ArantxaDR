@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.title {
+  color: darkslategrey;
+  padding-bottom: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
