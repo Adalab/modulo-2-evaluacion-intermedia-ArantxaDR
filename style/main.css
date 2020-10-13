@@ -5,11 +5,13 @@
 .title {
   color: darkslategrey;
   padding-bottom: 30px;
+  text-align: center;
 }
 .form {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 .form_intro {
   margin-bottom: 30px;
