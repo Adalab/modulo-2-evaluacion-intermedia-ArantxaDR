@@ -11,3 +11,20 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+.form_intro {
+  margin-bottom: 30px;
+  width: 150px;
+}
+.form_btn {
+  width: 80px;
+  height: 25px;
+  margin-bottom: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: unset;
+}
+.form_tip,
+.form_try {
+  width: 300px;
+}
