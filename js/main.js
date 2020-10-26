@@ -7,21 +7,19 @@ const btnElement = document.querySelector(".js-btn");
 const introElement = document.querySelector(".js-intro");
 const randomNumber = getRandomNumber(100);
 
-//Número ramndom//
+//Random number//
 function getRandomNumber(max) {
   return Math.ceil(Math.random() * max);
 }
 
 console.log(randomNumber);
 
-//Número de intentos//
+//Try chances//
 function getTryNumber(event) {
-  tryNumber++;
+  tryNumber += 1;
   tryElement.value = `Número de intentos: ${tryNumber}`;
-
-  //Mensajes//
-
-  console.log(introElement.value);
+  getNumber();
+  //Tips//
 
   function getNumber() {
     let realNumber = parseInt(introElement.value);
